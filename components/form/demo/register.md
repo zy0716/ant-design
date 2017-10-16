@@ -134,9 +134,9 @@ class RegistrationForm extends React.Component {
         >
           {getFieldDecorator('email', {
             rules: [{
-              type: 'email', message: 'The input is not valid E-mail!',
+              type: 'number', message: 'The input is not valid number!',
             }, {
-              required: true, message: 'Please input your E-mail!',
+              required: true, message: 'Please input your !',
             }],
           })(
             <Input />
